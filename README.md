@@ -1,7 +1,7 @@
 # signalindicator
 Signal strength indicator for Qt Quick
 
-## ScreenShots:
+## Screenshots:
 ![](static/preview.gif)
 
 ## Add to project:
@@ -16,7 +16,7 @@ And then import `SignalIndicator` into your `qml` file:
 `import SignalIndicator 1.0`
 
 ## Usage:
-a simple usage of SignalIndicator can be look like the following:
+a simple usage of `SignalIndicator` can be look like the following:
 ```
 SignalIndicator
 {

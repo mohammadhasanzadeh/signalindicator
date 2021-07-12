@@ -4,8 +4,6 @@ import QtQuick.Controls 2.15
 ProgressBar
 {
     id: control
-    value: 0.5
-    padding: 2
     background: Item {}
     contentItem: BarIndicator {}
 
