@@ -19,6 +19,7 @@ ApplicationWindow
         anchors.centerIn: parent
         width: parent.width * 0.7
         spacing: 25
+        height: 50
 
         SignalIndicator
         {

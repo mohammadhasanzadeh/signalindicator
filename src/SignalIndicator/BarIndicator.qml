@@ -15,11 +15,13 @@ Row
     {
         id: repeater
         model: control.parent.indicatorCount
+        property real bar_width: (control.width - (control.parent.indicatorCount * control.spacing)) / control.parent.indicatorCount
+        property real bar_height: (control.height / control.parent.indicatorCount)
         delegate: Rectangle {
             radius: control.radius
             anchors.bottom: control.bottom
-            width: 10
-            height: 10 * (index + 1)
+            width: repeater.bar_width
+            height: repeater.bar_height * (index + 1)
             color: (control.parent.turnOnIndicatorCount > index) ? control.turnOnColor : control.turnOffColor
             Behavior on color {
                 enabled: control.animation

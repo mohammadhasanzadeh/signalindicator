@@ -16,12 +16,13 @@ Item
     {
         id: repeater
         model: control.parent.indicatorCount
+        property real raduis_spacing: control.width / control.parent.indicatorCount
+
         delegate: Shape {
             id: shape
             width: control.width
             height: control.height
             antialiasing: true
-
             ShapePath
             {
                 strokeWidth: control.indicatorWidth
@@ -32,7 +33,7 @@ Item
                 {
                     centerX: 0
                     centerY: shape.height
-                    radiusX: (10 * (index + 1))
+                    radiusX: repeater.raduis_spacing * (index + 1)
                     radiusY: radiusX
                     startAngle: 0
                     sweepAngle: -90
