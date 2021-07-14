@@ -10,5 +10,5 @@ ProgressBar
     implicitHeight: 40
 
     property int indicatorCount: 4
-    readonly property int turnOnIndicatorCount: (control.visualPosition * control.indicatorCount)
+    readonly property int turnOnIndicatorCount: (control.visualPosition > 0) ? ((control.visualPosition * control.indicatorCount) + 1) : 0
 }

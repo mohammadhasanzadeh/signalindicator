@@ -119,4 +119,11 @@ ApplicationWindow
         to: 100
         value: 0
     }
+
+    Label
+    {
+        text: slider.value
+        anchors.left: slider.right
+        anchors.verticalCenter: slider.verticalCenter
+    }
 }
