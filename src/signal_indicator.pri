@@ -5,7 +5,6 @@ RESOURCES += \
     $$PWD/resources.qrc
 
 DISTFILES += \
-    $$PWD/SignalIndicator/qmldir \
+    $$PWD/com/melije/SignalIndicator/qmldir \
 
-QML_IMPORT_PATH += \
-    $$PWD/SignalIndicator/ \
+QML_IMPORT_PATH += $$PWD \

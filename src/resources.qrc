@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>SignalIndicator/ArcIndicator.qml</file>
-        <file>SignalIndicator/BarIndicator.qml</file>
-        <file>SignalIndicator/qmldir</file>
-        <file>SignalIndicator/SignalIndicator.qml</file>
+        <file>com/melije/SignalIndicator/ArcIndicator.qml</file>
+        <file>com/melije/SignalIndicator/BarIndicator.qml</file>
+        <file>com/melije/SignalIndicator/qmldir</file>
+        <file>com/melije/SignalIndicator/SignalIndicator.qml</file>
     </qresource>
 </RCC>

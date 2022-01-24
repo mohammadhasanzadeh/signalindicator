@@ -1,3 +1,4 @@
+module com.melije.SignalIndicator
 SignalIndicator 1.0 SignalIndicator.qml
 ArcIndicator 1.0 ArcIndicator.qml
 BarIndicator 1.0 BarIndicator.qml
